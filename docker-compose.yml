@@ -7,7 +7,7 @@ services:
     environment:
       # Storage directory
       STORAGE_DIR: /app/server/storage
-      
+      OLLAMA_BASE_URL: "http://ollama:11434"
       # Disable authentication for direct access
       DISABLE_AUTH: "true"
       
